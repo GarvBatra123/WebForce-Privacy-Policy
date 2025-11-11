@@ -29,13 +29,13 @@
     <h2>Information We Collect</h2>
     <ul>
       <li><strong>Device &amp; Diagnostics.</strong> Non-personal, aggregated data such as device model, OS version, crash logs, and basic usage analytics may be collected via platform services (e.g., Google Play) to improve performance and stability.</li>
-      <li><strong>User Settings (On‑Device).</strong> Preferences you configure (e.g., trigger modes, vibration, overlays, URLs) are stored <em>locally on your device</em>. Unless explicitly stated, these settings are not transmitted to our servers.</li>
+      <li><strong>User Settings (On-Device).</strong> Preferences you configure (e.g., trigger modes, vibration, overlays, URLs) are stored <em>locally on your device</em>. Unless explicitly stated, these settings are not transmitted to our servers.</li>
       <li><strong>No Personal Identifiers.</strong> We do not request or collect your name, email, contacts, photos, precise location, or other personally identifiable information.</li>
     </ul>
 
     <h2>How We Use Information</h2>
     <ul>
-      <li>To provide core app functionality and remember your in‑app settings.</li>
+      <li>To provide core app functionality and remember your in-app settings.</li>
       <li>To maintain and improve performance, reliability, and security.</li>
       <li>To analyze crashes and fix bugs.</li>
     </ul>
@@ -46,6 +46,25 @@
       <li>Limited diagnostic data may be processed by service providers (e.g., Google Play Services, Firebase Crashlytics if enabled) solely to provide analytics and crash reporting.</li>
     </ul>
 
+    <!-- ✅ New Section Added Below -->
+    <h2>Accessibility Service Disclosure</h2>
+    <p>
+      WebForce uses Android’s <strong>AccessibilityService</strong> only when you explicitly enable
+      the <em>“Tap-to-Trigger (Accessibility)”</em> or <em>“Volume Trigger”</em> features within the app.
+      This service allows WebForce to detect simple user interaction events—such as taps or volume key presses—
+      to trigger the overlay or effect you have selected.
+    </p>
+    <p>
+      WebForce does <strong>not</strong> read or collect on-screen text, capture input, record audio,
+      modify system settings, or perform any action without your consent. The feature is
+      <strong>off by default</strong> and can be disabled at any time from the app’s Settings page.
+    </p>
+    <p>
+      The AccessibilityService functionality exists solely to support optional trigger modes and does not
+      provide or claim accessibility support for users with disabilities.
+    </p>
+    <!-- ✅ End of new section -->
+
     <h2>Children’s Privacy</h2>
     <p>The app is not directed to children under 13, and we do not knowingly collect data from children.</p>
 
@@ -54,7 +73,7 @@
 
     <h2>Your Choices</h2>
     <ul>
-      <li>You may change or reset your in‑app settings at any time within the app.</li>
+      <li>You may change or reset your in-app settings at any time within the app.</li>
       <li>Uninstalling the app removes locally stored preferences from your device.</li>
     </ul>
 
